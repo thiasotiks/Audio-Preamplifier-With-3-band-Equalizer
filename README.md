@@ -42,7 +42,7 @@ Filter type: 2nd order Butterworth low-pass, Sallen-Key filter <br/>
 Target: gain = 3 - 2k = 3 - 2 * 0.707 = 1.586, f_c = 3.30 kHz, k = 0.707 <br/>
 Designed:
 ![TREBLE FILTER CALC](./image/treble-filter-calc.png)
-
+>**NOTE:** Before running simulation in LT Spice "potentiometer.asc" & "potentiometer.asy" must be copied to appropriate symbol folder (e.g. C:\Users\<User Name>\Documents\LTspiceXVII\lib\sym) and copy the TL072.LIB to the "sub" folder (e.g. C:\Users\<User Name>\Documents\LTspiceXVII\lib\sub)
 ## References
 - [Schematic](./Schematic/Schematic-Basic.pdf)
 - [OKAWA Electric Design](http://sim.okawa-denshi.jp/en/Fkeisan.htm)
