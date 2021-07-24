@@ -7,13 +7,13 @@ This repo contains the PCB layout and circuit diagram for audio preamplifier wit
 |Order||Stages|||
 |-----|------|------|-----|-----|
 |1|Stage-A: <br/>1st Order||||
-|2|Stage-A: 2nd Order; k = 0.707||||
-|3|Stage-A: 1st Order|Stage-B: 2nd Order; k = 0.5|||
-|4|Stage-A: 2nd Order; k = 0.3825|Stage-B: 2nd Order; k = 0.924|||
-|5|Stage-A: 1st Order|Stage-B: 2nd Order; k = 0.309|Stage-C: 2nd Order; k = 0.809||
-|6|Stage-A: 2nd Order; k = 0.259|Stage-B: 2nd Order; k = 0.707|Stage-C: 2nd Order; k = 0.966||
-|7|Stage-A: 1st Order|Stage-B: 2nd Order; k = 0.2225|Stage-C: 2nd Order; k = 0.6235|Stage-D: 2nd Order; k = 0.901|
-|8|Stage-A: 2nd Order; k = 0.190|Stage-B: 2nd Order; k = 0.5555|Stage-C: 2nd Order; k = 0.8315|Stage-D: 2nd Order; k = 0.981|
+|2|Stage-A: <br/>2nd Order; k = 0.707||||
+|3|Stage-A: <br/>1st Order|Stage-B: <br/>2nd Order; k = 0.5|||
+|4|Stage-A: <br/>2nd Order; k = 0.3825|Stage-B: <br/>2nd Order; k = 0.924|||
+|5|Stage-A: <br/>1st Order|Stage-B: <br/>2nd Order; k = 0.309|Stage-C: <br/>2nd Order; k = 0.809||
+|6|Stage-A: <br/>2nd Order; k = 0.259|Stage-B: <br/>2nd Order; k = 0.707|Stage-C: <br/>2nd Order; k = 0.966||
+|7|Stage-A: <br/>1st Order|Stage-B: <br/>2nd Order; k = 0.2225|Stage-C: <br/>2nd Order; k = 0.6235|Stage-D: <br/>2nd Order; k = 0.901|
+|8|Stage-A: <br/>2nd Order; k = 0.190|Stage-B: <br/>2nd Order; k = 0.5555|Stage-C: <br/>2nd Order; k = 0.8315|Stage-D: <br/>2nd Order; k = 0.981|
 >**NOTE:** k is the damping ratio of the filter which decides the response of the filter. Quality factor, Q = 1 / 2k.
 
 ## Designing the low-pas filter for BASS band (also acts as a crossover filter for subwoofer)
