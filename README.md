@@ -37,7 +37,7 @@ Designed:
 ![MID FILTER B CALC](./image/mid-filter-b-calc.png)
 
 ## Designing the low-pass filter for TREBLE band
-![LOW PASS FILTER-TREBLE](./image/lpf-treble.png)
+![LOW PASS FILTER-TREBLE](./image/hpf-treble.png)
 Filter type: 2nd order Butterworth low-pass, Sallen-Key filter <br/>
 Target: gain = 3 - 2k = 3 - 2 * 0.707 = 1.586, f_c = 3.30 kHz, k = 0.707 <br/>
 Designed:
