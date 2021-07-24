@@ -1,7 +1,7 @@
 # Audio-Preamplifier-With-3-band-Equalizer
 This repo contains the PCB layout and circuit diagram for audio preamplifier with 3 band equalizer and crossover filter for subwoofer
-![TOP PCB](./image/pcb-top.png)
-![BOTTOM PCB](./image/pcb-bottom.png)
+[PCB TOP](./image/pcb-top.png)
+[PCB BOTTOM](./image/pcb-bottom.png)
 
 ## Table of damping ratio for designing Butterworth filter of different orders.
 |Order||Stages|||
@@ -18,14 +18,14 @@ This repo contains the PCB layout and circuit diagram for audio preamplifier wit
 
 ## Designing the low-pas filter for BASS band (also acts as a crossover filter for subwoofer)
 ![LOW PASS FILTER-BASS](./image/lpf-bass.png)
-Filter type: 2nd order Butterworth low-pass, multiple feedback filter
+Filter type: 2nd order Butterworth low-pass, multiple feedback filter <br/>
 Target: |gain| = 4 (12 dB), cutoff freq., f_c = 250 Hz, k = 0.707 <br/>
 Designed:
 ![BASS FILTER CALC](./image/bass-filter-calc.png)
 
 ## Designing the band-pass filter for MID band
 ![BAND PASS FILTER-MID](./image/bpf-mid.png)
-Filter type: 2nd order mid-pass, cascade two Sallen-Key filters (stage-A & stage-B)
+Filter type: 2nd order mid-pass, cascade two Sallen-Key filters (stage-A & stage-B) <br/>
 ### Stage-A (2nd order Butterworth high-pass filter)
 Target: gain = 3 - 2k = 3 - 2 * 0.707 = 1.586, f_c = 420 Hz, k = 0.707 <br/>
 Designed:
@@ -38,7 +38,7 @@ Designed:
 
 ## Designing the low-pass filter for TREBLE band
 ![LOW PASS FILTER-TREBLE](./image/lpf-treble.png)
-Filter type: 2nd order Butterworth low-pass, Sallen-Key filter
+Filter type: 2nd order Butterworth low-pass, Sallen-Key filter <br/>
 Target: gain = 3 - 2k = 3 - 2 * 0.707 = 1.586, f_c = 3.30 kHz, k = 0.707 <br/>
 Designed:
 ![TREBLE FILTER CALC](./image/treble-filter-calc.png)
