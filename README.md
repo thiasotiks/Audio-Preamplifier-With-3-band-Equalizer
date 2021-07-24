@@ -44,6 +44,6 @@ Designed:
 ![TREBLE FILTER CALC](./image/treble-filter-calc.png)
 
 ## References
-- [Schematic](./Schematic.pdf)
+- [Schematic](./Schematic/Schematic-Basic.pdf)
 - [OKAWA Electric Design](http://sim.okawa-denshi.jp/en/Fkeisan.htm)
 - [Integrated Electronics by Millman & Halkias](https://books.google.co.in/books/about/Integrated_Electronics.html?id=Qta8v9hJBMAC)
