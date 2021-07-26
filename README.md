@@ -60,10 +60,10 @@ This repo contains the PCB layout and circuit diagram for audio preamplifier wit
 
 >**NOTE:** Before running simulation in LT Spice "potentiometer.asc" & "potentiometer.asy" must be copied to appropriate symbol folder (e.g. C:\Users\<User Name>\Documents\LTspiceXVII\lib\sym) and copy the TL072.LIB to the "sub" folder (e.g. C:\Users\<User Name>\Documents\LTspiceXVII\lib\sub)
 
-![OUTPUT CURVE-B-100%, M-100%, T-100%](./image/Audio-Preamplifier-3band-Response-100%-100%-100%-(B-M-T).png)
+![OUTPUT CURVE-B-100%, M-100%, T-100%](./image/Audio-Preamplifier-3band-Response-100%-100%-100%.png)
 <br/>**Figure:** OUTPUT CURVE-BASS=100%, MID=100%, TREBLE=100%
 
-![OUTPUT CURVE-B-5%, M-100%, T-5%](./image/Audio-Preamplifier-3band-Response-5%-100%-5%-(B-M-T).png)
+![OUTPUT CURVE-B-5%, M-100%, T-5%](./image/Audio-Preamplifier-3band-Response-5%-100%-5%.png)
 <br/>**Figure:** OUTPUT CURVE-BASS=5%, MID=100%, TREBLE=5%
 
 ![OUTPUT CURVE-B-90%, M-5%, T-100%](./image/Audio-Preamplifier-3band-Response-90%-5%-100%-(B-M-T).png)
