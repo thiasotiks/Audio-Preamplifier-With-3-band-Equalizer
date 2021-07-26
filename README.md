@@ -1,6 +1,9 @@
 # Audio-Preamplifier-With-3-band-Equalizer ![visitors](https://visitor-badge.glitch.me/badge?page_id=embeddedalpha.Audio-Preamplifier-With-3-band-Equalizer)
 This repo contains the PCB layout and circuit diagram for audio preamplifier with *3 band equalizer* and *crossover* filter for subwoofer.<br/><br/><br/>
 
+![CIRCUIT IN USE](./image/circuit-in-use.png)
+<br/>**Figure:** The preamplifier circuit board
+
 ![PCB TOP](./image/pcb-top.png)
 <br/>**Figure:** PCB top
 
@@ -73,6 +76,7 @@ This repo contains the PCB layout and circuit diagram for audio preamplifier wit
 <br/>**Figure:** OUTPUT CURVE-BASS=5%, MID=5%, TREBLE=5%
 
 ## References
+- [Wath the video on YouTube](https://youtu.be/h-8pL9eNuU0)
 - [Schematic](./Schematic/Schematic-Basic.pdf)
 - [OKAWA Electric Design](http://sim.okawa-denshi.jp/en/Fkeisan.htm)
 - [Integrated Electronics by Millman & Halkias](https://books.google.co.in/books/about/Integrated_Electronics.html?id=Qta8v9hJBMAC)
